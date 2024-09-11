@@ -1,6 +1,6 @@
-from BUBBLE import *
-from INSERT import *
-from SELECT import *
+from __BUBBLE import *
+from __INSERT import *
+from __SELECT import *
 
 
 # QUESTAO 1 - feito no arquivo functions.py , onde eu 
