@@ -1,4 +1,4 @@
-def selec_solve(l):
+def select_solve(l):
     #definindo varíavel para contar as trocas
     count = 0
     #iterando a lista
@@ -16,7 +16,7 @@ def selec_solve(l):
     
     str = f"O total de alterações foi de {count}"
 
-    return l,str
+    return count
 
 def insert_solve(l):
 
@@ -36,10 +36,7 @@ def insert_solve(l):
             count+=1
         l[j+1] = key 
         
-
-    str = f"O total de alterações foi de {count}"
-
-    return l,str
+    return count
 
 def bubble_solve(l):
     
@@ -55,15 +52,9 @@ def bubble_solve(l):
                 l[j], l[j+1] = l[j+1], l[j]
                 count+=1
 
-    str = f"O total de alterações foi de {count}"
+    return count
 
-    return l,str
 
-#inserir valores na lista para teste 
-l = [4,3,6,5,2]
 
-print(insert_solve(l))
-# print(bubble_solve(l))
-# print(selec_solve(l))
 
 
