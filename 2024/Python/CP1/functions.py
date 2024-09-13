@@ -10,10 +10,10 @@ def select_solve(l):
             #se o valor do elemento no indice j for menor que o elemento do indice k, altere o valor de k para j;
             if l[j] < l[k]:
                 k = j
-                count+=1
+                
 
         l[i],l[k] = l[k],l[i]
-    
+        count+=1
     str = f"O total de alterações foi de {count}"
 
     return count
@@ -53,6 +53,14 @@ def bubble_solve(l):
                 count+=1
 
     return count
+
+
+# funcao para devolver o menor valor de um dicionario
+
+def encontrar_menor(hashmap):
+    algoritmo_menor_valor = min(hashmap,key=hashmap.get)
+    return algoritmo_menor_valor, hashmap[algoritmo_menor_valor]
+
 
 
 
