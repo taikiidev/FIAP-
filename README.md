@@ -1,2 +1,1 @@
-# JAVA_2024
-Revisão do conteúdo para o CP 1 de 2024
+# Ano letivo 2024-06 até 2024-12
